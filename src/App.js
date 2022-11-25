@@ -51,7 +51,7 @@ function App() {
           </span>
          </div>
        <div className="App">
-          <input className="input"ref={todoNameRef} type="text"placeholder="  Create a new todo...." /> <br /> 
+          <input className="input"ref={todoNameRef} type="text"placeholder="  Create a new todo...."  onClick={handle}/> <br /> 
           <button className="add" onClick={handle}>Add</button> <br />  
 </div>
 
